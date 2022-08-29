@@ -3,4 +3,4 @@
 change below text to simulate a new commit
 ---------------------
 
-test commit 6
+test commit 7
