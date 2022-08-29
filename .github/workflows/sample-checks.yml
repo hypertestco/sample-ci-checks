@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  HT_BASE_URL=${{ secrets.HYPERTEST_BASE_URL }}
+  HT_BASE_URL: '${{ secrets.HYPERTEST_BASE_URL }}'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
