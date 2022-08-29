@@ -15,6 +15,7 @@ on:
 
 env:
   HT_BASE_URL: '${{ secrets.HYPERTEST_BASE_URL }}'
+  GITHUB_SHA: '${{ github.event.pull_request.head.sha }}'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
