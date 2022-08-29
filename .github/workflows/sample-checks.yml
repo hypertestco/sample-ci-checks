@@ -39,12 +39,12 @@ jobs:
       
   deploy-to-test-env:
     runs-on: ubuntu-latest
-        steps:
-        - name: Run a multi-line script
-          run: |
-            echo Add other actions to build,
-            echo test, and deploy your project.
-            printenv
+    steps:
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          printenv
 
   hypertest-start-test:
     runs-on: ubuntu-latest
