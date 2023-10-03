@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: download hypertest ci
-      run: wget -O ht-cli.tar.xz https://hypertest-binaries-1.s3. ap-south-1.amazonaws.com/ht-cli/ht-cli-0.13.61-2-local-dev-ci-config-test.tar.xz && tar xvf ht-cli.tar.xz
+      run: wget -O ht-cli.tar.xz https://hypertest-binaries-1.s3.ap-south-1.amazonaws.com/ht-cli/ht-cli-0.13.61-2-local-dev-ci-config-test.tar.xz && tar xvf ht-cli.tar.xz
     
     - name: hypertest-start-test
       run: ./hypertest start-new-test
