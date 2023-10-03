@@ -17,6 +17,8 @@ env:
   HT_BASE_URL: 'http://devmachine.hypertest.co:4010'
   GITHUB_CONFIG_REPO_URL: 'https://github.com/hypertestco/sample-ci-checks.git'
   GITHUB_CONFIG_INSTALLATION_ID: 29458279
+  HT_BRANCH: 'test-ci'
+  HT_PR: 6
   HT_COMMIT_HASH: '${{ github.event.pull_request.head.sha }}' ## required because checkout creates a detached commit with a different sha
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
